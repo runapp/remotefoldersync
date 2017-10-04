@@ -11,9 +11,13 @@ There are tons of free/open source similar utilities. This one is written in pyt
 
 ## Usage:
 
-``` remotefoldersync.py [--ftp] -u [username] -p [password] -h [hostname] [-P port] [local_folder] [remote_folder]
+```
+remotefoldersync.py [--ftp] -u [username] -p [password] -h [hostname] [-P port] [local_folder] [remote_folder]
 
---ftp - specify the server as FTP instead of SSH. -u [username] - optional, the username. -p [password] - optional, the password. -h [hostname] - optional, the hostname. [local_folder] - the local folder to monitor for changes. [remote_folder] - the remote folder that mirros the local_folder. NOTE: You cannot currently use the ~ symbol. Just use a relative path like "path/to/folder" or an absolute path like "/path/to/folder". ```
+--ftp - specify the server as FTP instead of SSH. -u [username] - optional, the username. -p [password] - optional, the password.
+
+-h [hostname] - optional, the hostname. [local_folder] - the local folder to monitor for changes. [remote_folder] - the remote folder that mirros the local_folder. NOTE: You cannot currently use the ~ symbol. Just use a relative path like "path/to/folder" or an absolute path like "/path/to/folder".
+```
 
 ## Requirements:
 
